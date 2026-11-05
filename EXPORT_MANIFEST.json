@@ -1,0 +1,432 @@
+{
+  "format": "park-lounge-contest-export-v1",
+  "versionName": "0.3.1",
+  "versionCode": 4,
+  "packageName": "ai.nc.varcospaces",
+  "sourceOnly": false,
+  "apkPath": "apk/ParkLounge_ParkLounge_release.apk",
+  "allowlistTrees": [
+    "app/src/main",
+    "app/libs",
+    "gradle/wrapper",
+    "tests"
+  ],
+  "allowlistFiles": [
+    "app/build.gradle.kts",
+    "build.gradle.kts",
+    "settings.gradle.kts",
+    "gradle.properties",
+    "gradlew",
+    "gradlew.bat",
+    "scripts/build-apk.sh",
+    "scripts/test.sh",
+    "scripts/preflight.py",
+    "scripts/import-assets.py",
+    "scripts/emu.sh",
+    "scripts/build-preview.py"
+  ],
+  "apkAssetMatchVerified": true,
+  "signatureVerification": "Performed by the release builder separately; this exporter does not sign or attest the signing identity.",
+  "files": [
+    {
+      "path": ".contest-export.json",
+      "bytes": 155,
+      "sha256": "abbacad3f787cd833564cc24506bde04a285713febe1673934c1efff3611edb7"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 97,
+      "sha256": "a254312144a62e1e5bed4d9726831b09964208fb7032fd9258ce2bb8a1ea2161"
+    },
+    {
+      "path": "EXPORT_SCAN.json",
+      "bytes": 669,
+      "sha256": "39ae92ca8cb39be73e0a7db85c8792f502f3d75a0245a4634c6f0c7178a1dc0d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5680,
+      "sha256": "ab203b679c1e881dae9c7cce8914c7e1d6ca2d18e125e3150de3d7435d118010"
+    },
+    {
+      "path": "apk/ParkLounge_ParkLounge_release.apk",
+      "bytes": 42253921,
+      "sha256": "2bf61227d523e8366c8d8b4dc913f7b5f51c3a05244ea337890a3a70efc94cbe"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "bytes": 1199,
+      "sha256": "617bb757f2e88b1159752b8ca2feac9a25a66fced5851fda93c6fdbfc6afe9c1"
+    },
+    {
+      "path": "app/libs/zxing-core-3.5.3.jar",
+      "bytes": 607650,
+      "sha256": "8d8064c1636fdaef7189dd9055c7d59950a8940a12f2293956446ec3c109fd82"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "bytes": 2073,
+      "sha256": "20d3ae23edf60f4bed3fddbe2583655b861585d4e7f25928662b916e0eda91fd"
+    },
+    {
+      "path": "app/src/main/assets/catalog.json",
+      "bytes": 53427,
+      "sha256": "fab52601d6a2675934bf713451e26bfa3d02c5c5e160ffcc5633875abe489999"
+    },
+    {
+      "path": "app/src/main/assets/content/fireside/audio-1-3c2c9b0b6b50ad86.wav",
+      "bytes": 2307918,
+      "sha256": "3c2c9b0b6b50ad86f14e65f22a70da72905535f9136d02c2d6b49f9aa3b433d7"
+    },
+    {
+      "path": "app/src/main/assets/content/fireside/audio-2-613c4aec2fe1f7fe.wav",
+      "bytes": 1957518,
+      "sha256": "613c4aec2fe1f7fe044cc205d1a4ab3a6abc337a289c9a5ac1f1026d049ec1e4"
+    },
+    {
+      "path": "app/src/main/assets/content/fireside/audio-3-cfb6c70f5e0e860a.wav",
+      "bytes": 2547918,
+      "sha256": "cfb6c70f5e0e860a3e9e74a1ee48d296fd408dcf12ee92ee9cbeb8135d589370"
+    },
+    {
+      "path": "app/src/main/assets/content/fireside/model-f13cd4ed57263225.glb",
+      "bytes": 4858156,
+      "sha256": "f13cd4ed57263225e08af970059a57d1e60733d423b525191f5e4429fbf5f155"
+    },
+    {
+      "path": "app/src/main/assets/content/fireside/thumbnail-a11967fda0ce4e17.png",
+      "bytes": 220784,
+      "sha256": "a11967fda0ce4e17d60b0af9043149064e6f8bdb1f52bcc85f0540ef3d0432a9"
+    },
+    {
+      "path": "app/src/main/assets/content/moon/audio-1-c24a6cca6b7bb329.wav",
+      "bytes": 2192718,
+      "sha256": "c24a6cca6b7bb329713cf1704d055db45a73878b5e0837e53b8b6377da16201d"
+    },
+    {
+      "path": "app/src/main/assets/content/moon/audio-2-eed176878eaeb1b5.wav",
+      "bytes": 1589838,
+      "sha256": "eed176878eaeb1b58ee8259a636210525c5cfe46ce805a670bf1fca6b5a59973"
+    },
+    {
+      "path": "app/src/main/assets/content/moon/audio-3-728665b61732fdd8.wav",
+      "bytes": 2034318,
+      "sha256": "728665b61732fdd8ec8e2206579d93d0905cf45ceae632c16d1164c5b8e498e7"
+    },
+    {
+      "path": "app/src/main/assets/content/moon/model-618bdb8a92803b41.glb",
+      "bytes": 4655848,
+      "sha256": "618bdb8a92803b413a118f7b960b646594e435867f0e1c38bfe0180d7cb60e4d"
+    },
+    {
+      "path": "app/src/main/assets/content/moon/thumbnail-2d87afe410786ad4.png",
+      "bytes": 228198,
+      "sha256": "2d87afe410786ad4577390e83568c859e9490c25bf47ab27ccd8b303f197e773"
+    },
+    {
+      "path": "app/src/main/assets/content/rain/audio-1-86a62759c13cdfa0.wav",
+      "bytes": 782658,
+      "sha256": "86a62759c13cdfa0d884dbba8a744036443c943946d2c314bd91ad32cf49f2a5"
+    },
+    {
+      "path": "app/src/main/assets/content/rain/audio-2-fc7b7c5e197a0c70.wav",
+      "bytes": 552258,
+      "sha256": "fc7b7c5e197a0c702183892b7082bc29e65992858de7b89b6a7383ee55021bfb"
+    },
+    {
+      "path": "app/src/main/assets/content/rain/audio-3-0d3d81bf7e554591.wav",
+      "bytes": 554178,
+      "sha256": "0d3d81bf7e554591cee2840f79ddc299e872d191cce12fe0702f6fbb19bdb7af"
+    },
+    {
+      "path": "app/src/main/assets/content/rain/model-ba559bed80d48afb.glb",
+      "bytes": 4695224,
+      "sha256": "ba559bed80d48afb12314504aded064b0f82dc41c81fa04d6b240108b9bbfa07"
+    },
+    {
+      "path": "app/src/main/assets/content/rain/thumbnail-1dc4dba1ba698cb2.png",
+      "bytes": 254725,
+      "sha256": "1dc4dba1ba698cb20387d81b3ed77765fed3731c8b93c17c36d3f77070d48c29"
+    },
+    {
+      "path": "app/src/main/assets/content/shore/audio-1-274e03f36851bb7d.wav",
+      "bytes": 2088078,
+      "sha256": "274e03f36851bb7df74f425283a982b170dc3aef6a78ee0ecda08b420059f62b"
+    },
+    {
+      "path": "app/src/main/assets/content/shore/audio-2-8ffec4a5ca71ba9b.wav",
+      "bytes": 2068878,
+      "sha256": "8ffec4a5ca71ba9b9640d42ac1a97f63c9a9c8708d14e7245a9672794ba339d2"
+    },
+    {
+      "path": "app/src/main/assets/content/shore/audio-3-df7b6364a743c01c.wav",
+      "bytes": 2418318,
+      "sha256": "df7b6364a743c01c2de885534ca9be84f3e1f01df46175ddeec11b3e80dff088"
+    },
+    {
+      "path": "app/src/main/assets/content/shore/model-d72c7aeed52371d6.glb",
+      "bytes": 5454388,
+      "sha256": "d72c7aeed52371d6ba83fa5e72e53433b446c0551b80bd8d50b6f56c042519e9"
+    },
+    {
+      "path": "app/src/main/assets/content/shore/thumbnail-a681c6d24b2d6203.png",
+      "bytes": 205178,
+      "sha256": "a681c6d24b2d6203ad0fed653b941811e4c34376ad3acfda78d2011d3f687e42"
+    },
+    {
+      "path": "app/src/main/assets/licenses/APACHE-2.0.txt",
+      "bytes": 9197,
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+    },
+    {
+      "path": "app/src/main/assets/licenses/NOTICE.txt",
+      "bytes": 444,
+      "sha256": "d56d775efb162dedea4a86f7a71c2b797a7c397f28f51446f99b6a7386b4573a"
+    },
+    {
+      "path": "app/src/main/assets/licenses/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "app/src/main/assets/web/ambient-motion.js",
+      "bytes": 5542,
+      "sha256": "cf08a1b61b72665ef47300014041d979dc472ef0e5c2b427cfbfa7ac7f77697a"
+    },
+    {
+      "path": "app/src/main/assets/web/app.js",
+      "bytes": 30970,
+      "sha256": "a9566345ddac7b80bbde68e72e516c3d3133db25198539806ebfdbd8d4781e91"
+    },
+    {
+      "path": "app/src/main/assets/web/index.html",
+      "bytes": 10446,
+      "sha256": "c83ccc6f465fa97e4e7e2189ff2c7e62a3700257436291dfe3a5d480ee4d073a"
+    },
+    {
+      "path": "app/src/main/assets/web/scene-view.js",
+      "bytes": 16135,
+      "sha256": "351dda4ba4117a8e6907b0b70e12d65337b2136a3fd27007dd7d2aa5e6839038"
+    },
+    {
+      "path": "app/src/main/assets/web/styles.css",
+      "bytes": 17900,
+      "sha256": "c6aae28e2c4b2639bd2088cf6696e93f57bdc6139cacbab31f7d2b75d23fd8e9"
+    },
+    {
+      "path": "app/src/main/assets/web/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "app/src/main/assets/web/vendor/loaders/GLTFLoader.js",
+      "bytes": 116372,
+      "sha256": "bf1e7cd96e7ec25e85dd660b2d4950f963b1a1e0ef4330f31c8f148347b221ab"
+    },
+    {
+      "path": "app/src/main/assets/web/vendor/three.core.js",
+      "bytes": 370844,
+      "sha256": "a3287536357b580f226ff2522aa3be77e8f7da3a3d945543a900c4ec4eacab80"
+    },
+    {
+      "path": "app/src/main/assets/web/vendor/three.module.js",
+      "bytes": 336077,
+      "sha256": "e2e15423f4a258aefe363f8d6da5cb4edc232cbc2d961f128eabeede3b759f01"
+    },
+    {
+      "path": "app/src/main/assets/web/vendor/utils/BufferGeometryUtils.js",
+      "bytes": 35448,
+      "sha256": "159f07df88c0804190ccffe1961211914954c5076f24f3f7b9f8e0df7755b715"
+    },
+    {
+      "path": "app/src/main/java/ai/nc/varcospaces/AudioEngine.java",
+      "bytes": 17530,
+      "sha256": "faccc7902c5ecbebf672cf9b6a7f9baf6955aaf436c9ebe5ac2ae81ba2055b4a"
+    },
+    {
+      "path": "app/src/main/java/ai/nc/varcospaces/MainActivity.java",
+      "bytes": 32910,
+      "sha256": "1a2a9979ba00557f9f3fdc245cfd0e29a842770349a9c4a677e67c5ebfe8424d"
+    },
+    {
+      "path": "app/src/main/java/ai/nc/varcospaces/ModelAttribution.java",
+      "bytes": 1765,
+      "sha256": "e7d0bcf54fa7e66106d3b83c0d8cfb10b5d414a03a62253a3f46e3700cc5fc4f"
+    },
+    {
+      "path": "app/src/main/java/ai/nc/varcospaces/ParkedState.java",
+      "bytes": 18051,
+      "sha256": "8d77623bf6790ae7e216417df4de761b9f3fb11b83f520d68af5ea5f3c9a3e99"
+    },
+    {
+      "path": "app/src/main/java/ai/nc/varcospaces/PlaybackService.java",
+      "bytes": 22651,
+      "sha256": "38d24127fc227b60a26bdade1e4413c691feaa72ae86c50c83551cba574de609"
+    },
+    {
+      "path": "app/src/main/java/ai/nc/varcospaces/SafetyPolicy.java",
+      "bytes": 1161,
+      "sha256": "5e04f5c4555b4a5724fe05043267dd21504776162e24366390026f623c61bcdd"
+    },
+    {
+      "path": "app/src/main/java/ai/nc/varcospaces/SceneCatalog.java",
+      "bytes": 5698,
+      "sha256": "38c884a05b7f410f280445869f57235ba10b6e1384aaca07109cd4834bcbdade"
+    },
+    {
+      "path": "app/src/main/java/ai/nc/varcospaces/SceneSettings.java",
+      "bytes": 2476,
+      "sha256": "975fc71127e7e353a0244b0ce5fe93eed334b347586fa3ea70b3d3a870a8b841"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher.xml",
+      "bytes": 298,
+      "sha256": "dd72fb93920f5b893c9fbef6f24e3f844e5a755d7405e4e55e879434119d305f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_stat_sound.xml",
+      "bytes": 430,
+      "sha256": "c191ff25153b40ea227d61d19c81b4343dcf0d5f38ea2f953e4b663b0fce074a"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/park_lounge_launcher_square.png",
+      "bytes": 12708,
+      "sha256": "afe25f9ecf625d057b30217279bc35fa1c85d093238c6deb6227ddf81325d9ba"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "bytes": 68,
+      "sha256": "29eb27ae60ebe3a1c6ed21f71de16055db713f7d1cb7ca481f0895ebc88fdfe3"
+    },
+    {
+      "path": "app/src/main/res/values/styles.xml",
+      "bytes": 554,
+      "sha256": "c0e027d1bde4eee8d746ea2b0b72f8e8242d395c222c11c6699725ce21fbcd85"
+    },
+    {
+      "path": "app/src/main/res/xml/automotive_app_desc.xml",
+      "bytes": 98,
+      "sha256": "0b6e23c337b983034ff69d8823b0c26a4ccd10665889e36ab33c581cfbf772ad"
+    },
+    {
+      "path": "build.gradle.kts",
+      "bytes": 70,
+      "sha256": "ccba04a7bbcf8472740427938e58af9f7548e0e50b07773a1b2358b93c3b78f8"
+    },
+    {
+      "path": "docs/release-evidence.json",
+      "bytes": 476,
+      "sha256": "b1544d21e4fe7ce7465a93492b4b7d0ca768e2d8035b098922b0f30b0031f790"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 43504,
+      "sha256": "498495120a03b9a6ab5d155f5de3c8f0d986a449153702fb80fc80e134484f17"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 250,
+      "sha256": "3d91f0932da99885c41e9dc4e85c9f9a2d3bfef4f0ad87473014dc0827a94884"
+    },
+    {
+      "path": "gradle.properties",
+      "bytes": 98,
+      "sha256": "19f172c25c4cdabbea0d32804ebc91ccf312e37ca7bd4ba76ca9fc24406f1063"
+    },
+    {
+      "path": "gradlew",
+      "bytes": 8762,
+      "sha256": "a3648413b47ef77af21d5ebc36c687c7d103aaef3e17f33de7d4f080a6f300a3"
+    },
+    {
+      "path": "gradlew.bat",
+      "bytes": 2966,
+      "sha256": "57931b17dd228e5c24dac90e815d0bf82477e831a4618dfab4136f5446b42a9f"
+    },
+    {
+      "path": "scripts/build-apk.sh",
+      "bytes": 5699,
+      "sha256": "95b79094049535e80850fbd9ccbbe1fb1b59cb424878769c0cc25c390d3fa9ca"
+    },
+    {
+      "path": "scripts/build-preview.py",
+      "bytes": 2166,
+      "sha256": "a3e9c0c389a17bf85407168d47d58438760c7f48da20fcf29460b6b7ffbc57da"
+    },
+    {
+      "path": "scripts/emu.sh",
+      "bytes": 1071,
+      "sha256": "4c7be79ed1b2c1639bc904517b048ac2c55c1062e2ad9d4f63a35e2a8c6a3455"
+    },
+    {
+      "path": "scripts/import-assets.py",
+      "bytes": 14786,
+      "sha256": "c1c975bcb82962e493630ecc4a3fb48dc51aee04b954a7213ecfb9daac70717f"
+    },
+    {
+      "path": "scripts/preflight.py",
+      "bytes": 6110,
+      "sha256": "3661fad08e3006e70edfe3e55af79e4f7f5135a03c273f39f02a413dd73a8fe6"
+    },
+    {
+      "path": "scripts/test.sh",
+      "bytes": 1196,
+      "sha256": "2fa41014fa58781d62aa2aa5cc05409f7c3f29fba30ed8feeef408738257a1ca"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "bytes": 272,
+      "sha256": "ce1046688385487155f5b0a0f68168b7caac1e71a0172fe56a185debc0f6b543"
+    },
+    {
+      "path": "tests/AudioEngineTest.java",
+      "bytes": 6846,
+      "sha256": "ed6a39354ee339896bf5cdef7970c6c2818281dd2e54d404013ff4f006e74417"
+    },
+    {
+      "path": "tests/CorePolicyTest.java",
+      "bytes": 4264,
+      "sha256": "3a07a9ced30c510e137880bdeeca5a15ef2910220279ce31381ea3c969b1ec19"
+    },
+    {
+      "path": "tests/GearLeaseTest.java",
+      "bytes": 4808,
+      "sha256": "d52923cb6043738900998a1e0dabd4f84c3529126c2a71f9fa4eec3ad8ed3e29"
+    },
+    {
+      "path": "tests/PlaybackLifecycleTest.java",
+      "bytes": 2569,
+      "sha256": "7b63d366f5bd8268169292e39196ebeb347a964b3cd06c0d9eeea5b8135b617b"
+    },
+    {
+      "path": "tests/SceneCatalogTest.java",
+      "bytes": 7429,
+      "sha256": "a252d404ae4dd1f0806bb3494be5ccd62a16eb4cbd8601f8b0d9b1ef3630c065"
+    },
+    {
+      "path": "tests/test_assets.py",
+      "bytes": 32281,
+      "sha256": "d6638fd7afd755122d813ec8c5d6e5d1922617a7f9fcc51364f5adcbb4972a42"
+    },
+    {
+      "path": "tests/test_audio_engine.py",
+      "bytes": 3645,
+      "sha256": "bea388741bfb4bd8a331d0dc15cdc21939405568bd11603f540041b717b95fe5"
+    },
+    {
+      "path": "tests/test_parked_state.py",
+      "bytes": 2414,
+      "sha256": "413c24860ad5b61df7835f59c8bc32cafb449bf88e59599a19f7cbab629fe6bc"
+    },
+    {
+      "path": "tests/test_scene_view.mjs",
+      "bytes": 16912,
+      "sha256": "a28455a1eaf81e4a2c220332455c0d3e0edfbdca596a9ba5f6cf69076f74f580"
+    },
+    {
+      "path": "tests/test_web_mixer.js",
+      "bytes": 24038,
+      "sha256": "f836715c3d17390849ca0be28f3fa47d139a2cdae554741c646d2aa5d80b4f28"
+    }
+  ]
+}

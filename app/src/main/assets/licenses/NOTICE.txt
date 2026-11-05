@@ -1,0 +1,13 @@
+Park Lounge — third-party software
+
+ZXing core 3.5.3
+Copyright ZXing authors. Licensed under Apache License 2.0.
+https://github.com/zxing/zxing/tree/zxing-3.5.3
+Unmodified core JAR; no imageio or network module is included.
+See APACHE-2.0.txt.
+
+Three.js and GLTFLoader
+Copyright Three.js authors. MIT License.
+https://github.com/mrdoob/three.js
+Local module imports in loader/utilities are rewritten for bundled paths.
+See THREE-LICENSE.txt.

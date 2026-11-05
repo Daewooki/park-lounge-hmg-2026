@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keep the complete square Park Lounge composition for launcher scaling. -->
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/park_lounge_launcher_square"
+    android:gravity="fill"
+    android:filter="true" />

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "purpose": "contest-reviewer-source",
+  "versionName": "0.3.1",
+  "assetReviewCompleted": false,
+  "emulatorQaCompleted": false,
+  "realDeviceQaCompleted": false,
+  "iarcEvidence": null,
+  "supportInboxConfirmed": false,
+  "webviewCategoryConfirmed": false,
+  "note": "This minimal export omits internal market evidence. Debug and technical-candidate preflight can run. Contest submission does not attest Pleos market approval or real-vehicle QA."
+}

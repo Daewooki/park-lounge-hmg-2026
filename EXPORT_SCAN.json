@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "scannedFiles": 82,
+  "scannedArchiveMembers": 371,
+  "rules": [
+    "bearer-credential",
+    "credential-token",
+    "literal-credential-assignment",
+    "private-absolute-home-path",
+    "private-company-url",
+    "private-key",
+    "signed-url-credential"
+  ],
+  "findings": [],
+  "scope": "Pattern-based local export scan; matches are reported as paths/rules only. Public asset author IDs and third-party credit are retained.",
+  "contactPolicy": "The app support email is intentionally public with user authorization. This is not permission to export applicant phone numbers, application documents, signatures, or signing credentials."
+}

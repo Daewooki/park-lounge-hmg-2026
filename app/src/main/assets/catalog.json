@@ -1,0 +1,675 @@
+{
+  "version": 2,
+  "appName": "Park Lounge",
+  "releaseReady": true,
+  "scenes": [
+    {
+      "id": "rain",
+      "title": "비 오는 숲",
+      "titleEn": "Rain Shelter",
+      "subtitle": "창밖의 빗소리, 잠깐의 여유",
+      "description": "빗소리와 숲의 소리를 내 취향에 맞게 조절해 보세요.",
+      "available": true,
+      "modelUrl": "/content/rain/model-ba559bed80d48afb.glb",
+      "attribution": "3D · VARCO 3D / 사운드 · VARCO Sound",
+      "layers": [
+        {
+          "id": "rain",
+          "label": "빗소리",
+          "available": true,
+          "file": "content/rain/audio-1-86a62759c13cdfa0.wav",
+          "volume": 0.65,
+          "provenance": {
+            "format": "wav",
+            "bytes": 782658,
+            "sha256": "86a62759c13cdfa0d884dbba8a744036443c943946d2c314bd91ad32cf49f2a5",
+            "durationSeconds": 8.15,
+            "sampleRateHz": 48000,
+            "channels": 1,
+            "sampleWidthBytes": 2,
+            "product": "VARCOSound",
+            "sourceNote": "Initial import record: Generated and exported from the signed-in NC AI account through VARCO SaaS on 2026-10-17. 3D: Wooden Forest Gazebo by u533671002, varco-3d-2.0, ID d281210f-1267-4fc4-b85d-9d6e90fd1782, Public CC BY 4.0 observed; locally simplified to 30000 triangles and PNG textures resized to 1024. Sound projects: rain f34bd797-5613-4089-aaf5-9c53fcad321b; forest 05ae6831-f684-43b9-b594-0a092870021d; drops cd74d55b-3e59-49f0-b96e-21368d569386. PCM loop trims, 250ms crossfade and gain documented with original/processed SHA-256 under assets/production. Internal development import only: Sound account distribution basis and listening review remain pending; no all-assets rights attestation. Subsequent user confirmation on 2026-10-17 authorizes editing/looping/gain adjustment and inclusion of this identified output in the free public NC AI promotional VARCO Spaces APK for Pleos distribution; listening review remains separate.",
+            "rightsConfirmed": true,
+            "importedAt": "2026-10-17T02:01:49+00:00",
+            "provenanceType": "operator-attestation",
+            "rightsConfirmedAt": "2026-10-17",
+            "rightsConfirmation": {
+              "record": "assets/production/sound-rights-confirmation.json",
+              "userStatement": "ㅇㅇ 사운드 음원 사용하면 돼",
+              "scope": "현재 VARCO Sound 생성물 3개의 길이 편집·루프 연결·음량 조정 및 무료 공개 NC AI 홍보용 VARCO Spaces APK 탑재·Pleos 마켓 배포."
+            }
+          },
+          "labelEn": "Rainfall",
+          "creationPrompt": "Gentle steady rain falling on leaves around a sheltered forest cabin. Soft natural ambience, even volume, seamless loop. No thunder, voices, music, animals, alarms or sudden impacts.",
+          "creationPromptEn": "Gentle steady rain falling on leaves around a sheltered forest cabin. Soft natural ambience, even volume, seamless loop. No thunder, voices, music, animals, alarms or sudden impacts."
+        },
+        {
+          "id": "forest",
+          "label": "숲의 바람",
+          "available": true,
+          "file": "content/rain/audio-2-fc7b7c5e197a0c70.wav",
+          "volume": 0.35,
+          "provenance": {
+            "format": "wav",
+            "bytes": 552258,
+            "sha256": "fc7b7c5e197a0c702183892b7082bc29e65992858de7b89b6a7383ee55021bfb",
+            "durationSeconds": 5.75,
+            "sampleRateHz": 48000,
+            "channels": 1,
+            "sampleWidthBytes": 2,
+            "product": "VARCOSound",
+            "sourceNote": "Initial import record: Generated and exported from the signed-in NC AI account through VARCO SaaS on 2026-10-17. 3D: Wooden Forest Gazebo by u533671002, varco-3d-2.0, ID d281210f-1267-4fc4-b85d-9d6e90fd1782, Public CC BY 4.0 observed; locally simplified to 30000 triangles and PNG textures resized to 1024. Sound projects: rain f34bd797-5613-4089-aaf5-9c53fcad321b; forest 05ae6831-f684-43b9-b594-0a092870021d; drops cd74d55b-3e59-49f0-b96e-21368d569386. PCM loop trims, 250ms crossfade and gain documented with original/processed SHA-256 under assets/production. Internal development import only: Sound account distribution basis and listening review remain pending; no all-assets rights attestation. Subsequent user confirmation on 2026-10-17 authorizes editing/looping/gain adjustment and inclusion of this identified output in the free public NC AI promotional VARCO Spaces APK for Pleos distribution; listening review remains separate.",
+            "rightsConfirmed": true,
+            "importedAt": "2026-10-17T02:01:49+00:00",
+            "provenanceType": "operator-attestation",
+            "rightsConfirmedAt": "2026-10-17",
+            "rightsConfirmation": {
+              "record": "assets/production/sound-rights-confirmation.json",
+              "userStatement": "ㅇㅇ 사운드 음원 사용하면 돼",
+              "scope": "현재 VARCO Sound 생성물 3개의 길이 편집·루프 연결·음량 조정 및 무료 공개 NC AI 홍보용 VARCO Spaces APK 탑재·Pleos 마켓 배포."
+            }
+          },
+          "labelEn": "Forest breeze",
+          "creationPrompt": "A soft forest breeze slowly rustling broad leaves. Quiet close natural texture, steady and seamless loop. No rain, whistling gusts, birds, voices, music, engines or sudden sounds.",
+          "creationPromptEn": "A soft forest breeze slowly rustling broad leaves. Quiet close natural texture, steady and seamless loop. No rain, whistling gusts, birds, voices, music, engines or sudden sounds."
+        },
+        {
+          "id": "drops",
+          "label": "물방울",
+          "available": true,
+          "file": "content/rain/audio-3-0d3d81bf7e554591.wav",
+          "volume": 0.2,
+          "provenance": {
+            "format": "wav",
+            "bytes": 554178,
+            "sha256": "0d3d81bf7e554591cee2840f79ddc299e872d191cce12fe0702f6fbb19bdb7af",
+            "durationSeconds": 5.77,
+            "sampleRateHz": 48000,
+            "channels": 1,
+            "sampleWidthBytes": 2,
+            "product": "VARCOSound",
+            "sourceNote": "Initial import record: Generated and exported from the signed-in NC AI account through VARCO SaaS on 2026-10-17. 3D: Wooden Forest Gazebo by u533671002, varco-3d-2.0, ID d281210f-1267-4fc4-b85d-9d6e90fd1782, Public CC BY 4.0 observed; locally simplified to 30000 triangles and PNG textures resized to 1024. Sound projects: rain f34bd797-5613-4089-aaf5-9c53fcad321b; forest 05ae6831-f684-43b9-b594-0a092870021d; drops cd74d55b-3e59-49f0-b96e-21368d569386. PCM loop trims, 250ms crossfade and gain documented with original/processed SHA-256 under assets/production. Internal development import only: Sound account distribution basis and listening review remain pending; no all-assets rights attestation. Subsequent user confirmation on 2026-10-17 authorizes editing/looping/gain adjustment and inclusion of this identified output in the free public NC AI promotional VARCO Spaces APK for Pleos distribution; listening review remains separate.",
+            "rightsConfirmed": true,
+            "importedAt": "2026-10-17T02:01:49+00:00",
+            "provenanceType": "operator-attestation",
+            "rightsConfirmedAt": "2026-10-17",
+            "rightsConfirmation": {
+              "record": "assets/production/sound-rights-confirmation.json",
+              "userStatement": "ㅇㅇ 사운드 음원 사용하면 돼",
+              "scope": "현재 VARCO Sound 생성물 3개의 길이 편집·루프 연결·음량 조정 및 무료 공개 NC AI 홍보용 VARCO Spaces APK 탑재·Pleos 마켓 배포."
+            }
+          },
+          "labelEn": "Raindrops",
+          "creationPrompt": "Delicate water droplets gently landing in a shallow puddle under a wooden forest shelter. Sparse soft rounded plips, seamless ambience. No running tap, loud splashes, voices or music.",
+          "creationPromptEn": "Delicate water droplets gently landing in a shallow puddle under a wooden forest shelter. Sparse soft rounded plips, seamless ambience. No running tap, loud splashes, voices or music."
+        }
+      ],
+      "modelProvenance": {
+        "format": "glb",
+        "glbVersion": 2,
+        "bytes": 4695224,
+        "sha256": "ba559bed80d48afb12314504aded064b0f82dc41c81fa04d6b240108b9bbfa07",
+        "product": "VARCO3D",
+        "sourceNote": "Generated and exported from the signed-in NC AI account through VARCO SaaS on 2026-10-17. 3D: Wooden Forest Gazebo by u533671002, varco-3d-2.0, ID d281210f-1267-4fc4-b85d-9d6e90fd1782, Public CC BY 4.0 observed; locally simplified to 30000 triangles and PNG textures resized to 1024. Sound projects: rain f34bd797-5613-4089-aaf5-9c53fcad321b; forest 05ae6831-f684-43b9-b594-0a092870021d; drops cd74d55b-3e59-49f0-b96e-21368d569386. PCM loop trims, 250ms crossfade and gain documented with original/processed SHA-256 under assets/production. Internal development import only: Sound account distribution basis and listening review remain pending; no all-assets rights attestation. Local post-processing: added three inset water surfaces to the existing optimized mesh; total 30144 triangles. Original source and texture bytes preserved. This candidate is packaged pending visual review; no new rights attestation.",
+        "rightsConfirmed": true,
+        "importedAt": "2026-10-17T02:01:49+00:00",
+        "provenanceType": "operator-attestation",
+        "generationSourceVerified": true,
+        "verificationBasis": "Observed completed VARCO 3D job d281210f-1267-4fc4-b85d-9d6e90fd1782 and downloaded its GLB through the service UI; original and processed hashes recorded in production provenance.",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "author": "u533671002",
+        "title": "Wooden Forest Gazebo",
+        "sourceUrl": "https://3d.varco.ai/myAssets/d281210f-1267-4fc4-b85d-9d6e90fd1782",
+        "triangles": 30144,
+        "vertices": 28419,
+        "maximumTextureSize": 1024,
+        "localModifications": "Mesh and texture optimization for in-vehicle display; added three inset water surfaces (144 triangles) inside the generated through-openings. Total 30144 triangles, 28419 vertices; original optimized mesh/material and two embedded 1024px PNG textures preserved.",
+        "processingRecord": "assets/production/candidates/rain/forest-shelter-puddle-surfaces-v1.provenance.json",
+        "processingStatus": "packaged_pending_visual_review",
+        "previousModelSha256": "ec17142344fe7e659203ad19ed8e3bd62b150cc8072378b187916d38f59314a1",
+        "rightsConfirmedAt": "2026-10-18",
+        "rightsBasis": "CC BY 4.0 observed in the original VARCO 3D service UI and recorded in assets/production/rain-brief.json; author/source/license/modifications preserved in app attribution."
+      },
+      "provenance": {
+        "sourceNote": "Existing generated rain assets. VARCO 3D Public CC BY 4.0 recorded in assets/production/rain-brief.json with attribution preserved; VARCO Sound use/edit/distribution explicitly authorized in assets/production/sound-rights-confirmation.json. Original and packaged asset hashes remain unchanged.",
+        "rightsConfirmed": true,
+        "importedAt": "2026-10-17T02:01:49+00:00",
+        "provenanceType": "operator-attestation",
+        "rightsConfirmedAt": "2026-10-18"
+      },
+      "assetStatus": "imported",
+      "attributionEn": "3D · VARCO 3D / Sound · VARCO Sound",
+      "soundRightsConfirmation": {
+        "confirmed": true,
+        "confirmedDate": "2026-10-17",
+        "record": "assets/production/sound-rights-confirmation.json",
+        "scope": "현재 VARCO Sound 생성물 3개의 길이 편집·루프 연결·음량 조정 및 무료 공개 NC AI 홍보용 VARCO Spaces APK 탑재·Pleos 마켓 배포."
+      },
+      "subtitleEn": "A little time to yourself, surrounded by rain.",
+      "visual": {
+        "theme": "rain",
+        "yawDegrees": 0
+      },
+      "creation": {
+        "model": {
+          "description": "숲속 쉼터를 글로 묘사해 이미지를 만들고, VARCO 3D에서 입체 모델로 완성했어요.",
+          "descriptionEn": "A forest shelter described in words, turned into an image and then a model with VARCO 3D.",
+          "prompt": "A single cohesive miniature forest shelter diorama on a low round mossy base. An open wooden gazebo with a simple pitched roof and a bench, three compact leafy trees behind it, a short stone path and two shallow puddles. Calm sage green, warm natural timber and muted stone colors. Charming stylized game environment, clean solid geometry, broad readable shapes, physically plausible construction. Entire diorama visible with generous space around it. No people, animals, text, logos, sky dome, falling rain particles or separate floating objects. Static textured 3D asset suitable for viewing from every side.",
+          "promptEn": "A single cohesive miniature forest shelter diorama on a low round mossy base. An open wooden gazebo with a simple pitched roof and a bench, three compact leafy trees behind it, a short stone path and two shallow puddles. Calm sage green, warm natural timber and muted stone colors. Charming stylized game environment, clean solid geometry, broad readable shapes, physically plausible construction. Entire diorama visible with generous space around it. No people, animals, text, logos, sky dome, falling rain particles or separate floating objects. Static textured 3D asset suitable for viewing from every side."
+        },
+        "sound": {
+          "description": "빗소리, 나뭇잎 바람, 물방울을 VARCO Sound에서 따로 만들어 조합했어요.",
+          "descriptionEn": "Rain, rustling leaves and raindrops created separately with VARCO Sound, then mixed together."
+        }
+      },
+      "thumbnailUrl": "/content/rain/thumbnail-1dc4dba1ba698cb2.png",
+      "thumbnailProvenance": {
+        "source": "Render of the actual packaged VARCO GLB",
+        "sha256": "1dc4dba1ba698cb20387d81b3ed77765fed3731c8b93c17c36d3f77070d48c29",
+        "modelSha256": "ba559bed80d48afb12314504aded064b0f82dc41c81fa04d6b240108b9bbfa07"
+      },
+      "choiceSubtitle": "빗소리와 숲의 바람",
+      "choiceSubtitleEn": "Rainfall and forest breeze."
+    },
+    {
+      "id": "shore",
+      "title": "노을 해변",
+      "titleEn": "Sunset Shore",
+      "subtitle": "잔잔한 파도 너머로 저무는 하루",
+      "subtitleEn": "Let the day drift away with the tide.",
+      "available": true,
+      "modelUrl": "/content/shore/model-d72c7aeed52371d6.glb",
+      "visual": {
+        "theme": "shore",
+        "yawDegrees": 0
+      },
+      "layers": [
+        {
+          "id": "waves",
+          "label": "잔잔한 파도",
+          "labelEn": "Gentle waves",
+          "available": true,
+          "file": "content/shore/audio-1-274e03f36851bb7d.wav",
+          "volume": 0.65,
+          "creationPrompt": "Gentle small ocean waves rolling slowly onto a sheltered sandy shore. Soft continuous wash with natural variation, peaceful close seaside ambience. No voices, birds, boats, music or sharp splashes.",
+          "creationPromptEn": "Gentle small ocean waves rolling slowly onto a sheltered sandy shore. Soft continuous wash with natural variation, peaceful close seaside ambience. No voices, birds, boats, music or sharp splashes.",
+          "provenance": {
+            "format": "wav",
+            "bytes": 2088078,
+            "sha256": "274e03f36851bb7df74f425283a982b170dc3aef6a78ee0ecda08b420059f62b",
+            "durationSeconds": 21.75,
+            "sampleRateHz": 48000,
+            "channels": 1,
+            "sampleWidthBytes": 2,
+            "product": "VARCOSound",
+            "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Miniature Hot Tub, job 11cc9e53-ec22-4a4f-8c93-57b9a15407a3, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+            "rightsConfirmed": true,
+            "importedAt": "2026-10-18T00:26:26+00:00",
+            "provenanceType": "operator-attestation",
+            "rightsConfirmedAt": "2026-10-18T00:26:26+00:00",
+            "projectId": "7248acdb-efa3-4128-9fb4-90d5cdbc526f",
+            "sourceUrl": "https://sound.varco.ai/app/editor/7248acdb-efa3-4128-9fb4-90d5cdbc526f",
+            "processingRecord": "assets/production/expansion/processed/shore/waves-loop.provenance.json",
+            "rightsConfirmationRecord": "assets/production/expansion/sound-rights-confirmation.json"
+          }
+        },
+        {
+          "id": "sea_breeze",
+          "label": "해풍",
+          "labelEn": "Sea breeze",
+          "available": true,
+          "file": "content/shore/audio-2-8ffec4a5ca71ba9b.wav",
+          "volume": 0.35,
+          "creationPrompt": "A soft steady sea breeze moving through dune grass on a quiet beach. Airy gentle rustling, smooth natural variation, relaxing ambience. No ocean waves, voices, birds, whistling or music.",
+          "creationPromptEn": "A soft steady sea breeze moving through dune grass on a quiet beach. Airy gentle rustling, smooth natural variation, relaxing ambience. No ocean waves, voices, birds, whistling or music.",
+          "provenance": {
+            "format": "wav",
+            "bytes": 2068878,
+            "sha256": "8ffec4a5ca71ba9b9640d42ac1a97f63c9a9c8708d14e7245a9672794ba339d2",
+            "durationSeconds": 21.55,
+            "sampleRateHz": 48000,
+            "channels": 1,
+            "sampleWidthBytes": 2,
+            "product": "VARCOSound",
+            "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Miniature Hot Tub, job 11cc9e53-ec22-4a4f-8c93-57b9a15407a3, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+            "rightsConfirmed": true,
+            "importedAt": "2026-10-18T00:26:26+00:00",
+            "provenanceType": "operator-attestation",
+            "rightsConfirmedAt": "2026-10-18T00:26:26+00:00",
+            "projectId": "3a751613-5f0b-4fd5-a2ae-05668518031b",
+            "sourceUrl": "https://sound.varco.ai/app/editor/3a751613-5f0b-4fd5-a2ae-05668518031b",
+            "processingRecord": "assets/production/expansion/processed/shore/sea_breeze-loop.provenance.json",
+            "rightsConfirmationRecord": "assets/production/expansion/sound-rights-confirmation.json"
+          }
+        },
+        {
+          "id": "cove_water",
+          "label": "자갈 사이 물결",
+          "labelEn": "Pebble wash",
+          "available": true,
+          "file": "content/shore/audio-3-df7b6364a743c01c.wav",
+          "volume": 0.2,
+          "creationPrompt": "Delicate shallow seawater gently trickling back through smooth tiny pebbles at the edge of a calm cove. Soft rounded bubbling and sandy fizz, continuous peaceful texture. No large waves, voices or music.",
+          "creationPromptEn": "Delicate shallow seawater gently trickling back through smooth tiny pebbles at the edge of a calm cove. Soft rounded bubbling and sandy fizz, continuous peaceful texture. No large waves, voices or music.",
+          "provenance": {
+            "format": "wav",
+            "bytes": 2418318,
+            "sha256": "df7b6364a743c01c2de885534ca9be84f3e1f01df46175ddeec11b3e80dff088",
+            "durationSeconds": 25.19,
+            "sampleRateHz": 48000,
+            "channels": 1,
+            "sampleWidthBytes": 2,
+            "product": "VARCOSound",
+            "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Miniature Hot Tub, job 11cc9e53-ec22-4a4f-8c93-57b9a15407a3, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+            "rightsConfirmed": true,
+            "importedAt": "2026-10-18T00:26:26+00:00",
+            "provenanceType": "operator-attestation",
+            "rightsConfirmedAt": "2026-10-18T00:26:26+00:00",
+            "projectId": "c57a7394-4334-4515-a7da-cfe8a95a981c",
+            "sourceUrl": "https://sound.varco.ai/app/editor/c57a7394-4334-4515-a7da-cfe8a95a981c",
+            "processingRecord": "assets/production/expansion/processed/shore/cove_water-loop.provenance.json",
+            "rightsConfirmationRecord": "assets/production/expansion/sound-rights-confirmation.json"
+          }
+        }
+      ],
+      "creation": {
+        "model": {
+          "description": "해변의 의자와 잔잔한 물결을 글로 묘사하고, VARCO 3D로 작은 해안 공간을 만들었어요.",
+          "descriptionEn": "A seaside retreat described in words and brought into three dimensions with VARCO 3D.",
+          "prompt": "A single cohesive miniature seaside lounge diorama on a low round sandy base. Two wooden deck chairs on a curved timber deck face a shallow turquoise cove, with smooth shore rocks and a small dune grass patch. Warm peach sunset lighting, muted teal and sand colors. Charming stylized game environment, broad readable shapes, solid geometry. Entire diorama visible, three-quarter front view, plain pale background. No people, text, logos, horizon backdrop or floating objects.",
+          "promptEn": "A single cohesive miniature seaside lounge diorama on a low round sandy base. Two wooden deck chairs on a curved timber deck face a shallow turquoise cove, with smooth shore rocks and a small dune grass patch. Warm peach sunset lighting, muted teal and sand colors. Charming stylized game environment, broad readable shapes, solid geometry. Entire diorama visible, three-quarter front view, plain pale background. No people, text, logos, horizon backdrop or floating objects."
+        },
+        "sound": {
+          "description": "파도, 해풍, 자갈 사이 물소리를 VARCO Sound에서 따로 만들어 조합했어요.",
+          "descriptionEn": "Waves, sea breeze and pebble wash created separately with VARCO Sound, then mixed together."
+        }
+      },
+      "modelProvenance": {
+        "format": "glb",
+        "glbVersion": 2,
+        "bytes": 5454388,
+        "sha256": "d72c7aeed52371d6ba83fa5e72e53433b446c0551b80bd8d50b6f56c042519e9",
+        "product": "VARCO3D",
+        "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Miniature Hot Tub, job 11cc9e53-ec22-4a4f-8c93-57b9a15407a3, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+        "rightsConfirmed": true,
+        "importedAt": "2026-10-18T00:26:26+00:00",
+        "provenanceType": "operator-attestation",
+        "rightsConfirmedAt": "2026-10-18T00:26:26+00:00",
+        "id": "11cc9e53-ec22-4a4f-8c93-57b9a15407a3",
+        "title": "Miniature Hot Tub",
+        "author": "u533671002",
+        "sourceUrl": "https://3d.varco.ai/myAssets/11cc9e53-ec22-4a4f-8c93-57b9a15407a3",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "generator": "varco-3d-2.0",
+        "originalTriangles": 500000,
+        "observation": "Public and CC BY 4.0 displayed in VARCO 3D own asset license UI on 2026-10-18.",
+        "service": "VARCO 3D · varco-3d-2.0",
+        "generationSourceVerified": true,
+        "processingRecord": "assets/production/expansion/processed/shore/model.optimization.json",
+        "triangles": 30000,
+        "maximumTextureSize": 1024,
+        "localModifications": "Simplified mesh to 30000 triangles and resized embedded PNG textures to 1024 pixels; processing details recorded with the asset.",
+        "localModificationsKo": "차량 표시용으로 메시를 30,000 삼각형으로 단순화하고 내장 PNG 텍스처를 1024px로 조정했습니다.",
+        "rightsBasis": "CC BY 4.0 displayed on the generated asset; author, source, license and modifications are included in the app attribution."
+      },
+      "provenance": {
+        "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Miniature Hot Tub, job 11cc9e53-ec22-4a4f-8c93-57b9a15407a3, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+        "rightsConfirmed": true,
+        "importedAt": "2026-10-18T00:26:26+00:00",
+        "provenanceType": "operator-attestation",
+        "rightsConfirmedAt": "2026-10-18T00:26:26+00:00"
+      },
+      "assetStatus": "imported",
+      "attribution": "3D · VARCO 3D / 사운드 · VARCO Sound",
+      "attributionEn": "3D · VARCO 3D / Sound · VARCO Sound",
+      "thumbnailUrl": "/content/shore/thumbnail-a681c6d24b2d6203.png",
+      "thumbnailProvenance": {
+        "source": "Render of the actual packaged VARCO GLB",
+        "sha256": "a681c6d24b2d6203ad0fed653b941811e4c34376ad3acfda78d2011d3f687e42",
+        "modelSha256": "d72c7aeed52371d6ba83fa5e72e53433b446c0551b80bd8d50b6f56c042519e9"
+      },
+      "choiceSubtitle": "파도와 해풍이 머무는 곳",
+      "choiceSubtitleEn": "Waves and sea breeze."
+    },
+    {
+      "id": "fireside",
+      "title": "벽난로 라운지",
+      "titleEn": "Fireside Lounge",
+      "subtitle": "따뜻한 불빛 곁에서 쉬어가는 시간",
+      "subtitleEn": "Stay a while beside the warm glow.",
+      "available": true,
+      "modelUrl": "/content/fireside/model-f13cd4ed57263225.glb",
+      "visual": {
+        "theme": "fireside",
+        "yawDegrees": 0
+      },
+      "layers": [
+        {
+          "id": "logs",
+          "label": "장작 타는 소리",
+          "labelEn": "Wood crackle",
+          "available": true,
+          "file": "content/fireside/audio-1-3c2c9b0b6b50ad86.wav",
+          "volume": 0.65,
+          "creationPrompt": "Small dry logs burning gently in a cozy indoor brick fireplace. Soft irregular delicate crackles, calm warm close ambience, no loud pops or sudden bursts. No voices, footsteps, wind or music.",
+          "creationPromptEn": "Small dry logs burning gently in a cozy indoor brick fireplace. Soft irregular delicate crackles, calm warm close ambience, no loud pops or sudden bursts. No voices, footsteps, wind or music.",
+          "provenance": {
+            "format": "wav",
+            "bytes": 2307918,
+            "sha256": "3c2c9b0b6b50ad86f14e65f22a70da72905535f9136d02c2d6b49f9aa3b433d7",
+            "durationSeconds": 24.04,
+            "sampleRateHz": 48000,
+            "channels": 1,
+            "sampleWidthBytes": 2,
+            "product": "VARCOSound",
+            "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Brick Fireplace Diorama, job 199b4a0a-e707-487b-b748-1e116fa67155, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+            "rightsConfirmed": true,
+            "importedAt": "2026-10-18T00:26:26+00:00",
+            "provenanceType": "operator-attestation",
+            "rightsConfirmedAt": "2026-10-18T00:26:26+00:00",
+            "projectId": "e6cf1d13-b862-49ec-8500-645ad1e52064",
+            "sourceUrl": "https://sound.varco.ai/app/editor/e6cf1d13-b862-49ec-8500-645ad1e52064",
+            "processingRecord": "assets/production/expansion/processed/fireside/logs-loop.provenance.json",
+            "rightsConfirmationRecord": "assets/production/expansion/sound-rights-confirmation.json"
+          }
+        },
+        {
+          "id": "fire_glow",
+          "label": "불의 낮은 울림",
+          "labelEn": "Ember glow",
+          "available": true,
+          "file": "content/fireside/audio-2-613c4aec2fe1f7fe.wav",
+          "volume": 0.35,
+          "creationPrompt": "A gentle steady airy warmth from a small indoor fireplace, soft low flame whoosh and glowing ember hiss. Smooth soothing continuous room ambience. No crackling pops, voices, roaring, wind gusts or music.",
+          "creationPromptEn": "A gentle steady airy warmth from a small indoor fireplace, soft low flame whoosh and glowing ember hiss. Smooth soothing continuous room ambience. No crackling pops, voices, roaring, wind gusts or music.",
+          "provenance": {
+            "format": "wav",
+            "bytes": 1957518,
+            "sha256": "613c4aec2fe1f7fe044cc205d1a4ab3a6abc337a289c9a5ac1f1026d049ec1e4",
+            "durationSeconds": 20.39,
+            "sampleRateHz": 48000,
+            "channels": 1,
+            "sampleWidthBytes": 2,
+            "product": "VARCOSound",
+            "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Brick Fireplace Diorama, job 199b4a0a-e707-487b-b748-1e116fa67155, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+            "rightsConfirmed": true,
+            "importedAt": "2026-10-18T00:26:26+00:00",
+            "provenanceType": "operator-attestation",
+            "rightsConfirmedAt": "2026-10-18T00:26:26+00:00",
+            "projectId": "c6efac72-a4cb-410d-a390-39fd8a8db914",
+            "sourceUrl": "https://sound.varco.ai/app/editor/c6efac72-a4cb-410d-a390-39fd8a8db914",
+            "processingRecord": "assets/production/expansion/processed/fireside/fire_glow-loop.provenance.json",
+            "rightsConfirmationRecord": "assets/production/expansion/sound-rights-confirmation.json"
+          }
+        },
+        {
+          "id": "winter_wind",
+          "label": "창밖 바람",
+          "labelEn": "Window breeze",
+          "available": true,
+          "file": "content/fireside/audio-3-cfb6c70f5e0e860a.wav",
+          "volume": 0.2,
+          "creationPrompt": "Gentle winter wind heard softly through a closed window in a quiet warm room. Distant muffled airy texture, steady calm ambience, no howling or whistling. No fire, footsteps, voices or music.",
+          "creationPromptEn": "Gentle winter wind heard softly through a closed window in a quiet warm room. Distant muffled airy texture, steady calm ambience, no howling or whistling. No fire, footsteps, voices or music.",
+          "provenance": {
+            "format": "wav",
+            "bytes": 2547918,
+            "sha256": "cfb6c70f5e0e860a3e9e74a1ee48d296fd408dcf12ee92ee9cbeb8135d589370",
+            "durationSeconds": 26.54,
+            "sampleRateHz": 48000,
+            "channels": 1,
+            "sampleWidthBytes": 2,
+            "product": "VARCOSound",
+            "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Brick Fireplace Diorama, job 199b4a0a-e707-487b-b748-1e116fa67155, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+            "rightsConfirmed": true,
+            "importedAt": "2026-10-18T00:26:26+00:00",
+            "provenanceType": "operator-attestation",
+            "rightsConfirmedAt": "2026-10-18T00:26:26+00:00",
+            "projectId": "eb26f4ad-95c3-427b-871d-125f337053a4",
+            "sourceUrl": "https://sound.varco.ai/app/editor/eb26f4ad-95c3-427b-871d-125f337053a4",
+            "processingRecord": "assets/production/expansion/processed/fireside/winter_wind-loop.provenance.json",
+            "rightsConfirmationRecord": "assets/production/expansion/sound-rights-confirmation.json"
+          }
+        }
+      ],
+      "creation": {
+        "model": {
+          "description": "벽난로와 포근한 의자가 있는 방을 글로 묘사하고, VARCO 3D로 입체 공간을 만들었어요.",
+          "descriptionEn": "A cozy room with a fireplace and armchair, described in words and made into a model with VARCO 3D.",
+          "prompt": "A single cohesive miniature fireside lounge diorama on a low round wooden floor base. An open-front cozy room with two short stone walls, a broad brick fireplace with glowing logs, one deep rust-colored armchair, a small round side table and a soft rug. Warm amber light, cream stone and walnut wood. Charming stylized game environment, broad readable shapes, solid geometry. Entire model visible, three-quarter front view, pale background. No roof, people, text, logos or floating pieces.",
+          "promptEn": "A single cohesive miniature fireside lounge diorama on a low round wooden floor base. An open-front cozy room with two short stone walls, a broad brick fireplace with glowing logs, one deep rust-colored armchair, a small round side table and a soft rug. Warm amber light, cream stone and walnut wood. Charming stylized game environment, broad readable shapes, solid geometry. Entire model visible, three-quarter front view, pale background. No roof, people, text, logos or floating pieces."
+        },
+        "sound": {
+          "description": "장작, 낮은 불의 울림, 창밖 바람을 VARCO Sound에서 따로 만들어 조합했어요.",
+          "descriptionEn": "Wood crackle, ember glow and window breeze created separately with VARCO Sound, then mixed together."
+        }
+      },
+      "modelProvenance": {
+        "format": "glb",
+        "glbVersion": 2,
+        "bytes": 4858156,
+        "sha256": "f13cd4ed57263225e08af970059a57d1e60733d423b525191f5e4429fbf5f155",
+        "product": "VARCO3D",
+        "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Brick Fireplace Diorama, job 199b4a0a-e707-487b-b748-1e116fa67155, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+        "rightsConfirmed": true,
+        "importedAt": "2026-10-18T00:26:26+00:00",
+        "provenanceType": "operator-attestation",
+        "rightsConfirmedAt": "2026-10-18T00:26:26+00:00",
+        "id": "199b4a0a-e707-487b-b748-1e116fa67155",
+        "title": "Brick Fireplace Diorama",
+        "author": "u533671002",
+        "sourceUrl": "https://3d.varco.ai/myAssets/199b4a0a-e707-487b-b748-1e116fa67155",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "generator": "varco-3d-2.0",
+        "originalTriangles": 500000,
+        "originalVertices": 302962,
+        "observation": "Public and CC BY 4.0 displayed in VARCO 3D own asset license UI on 2026-10-18.",
+        "service": "VARCO 3D · varco-3d-2.0",
+        "generationSourceVerified": true,
+        "processingRecord": "assets/production/expansion/processed/fireside/model.optimization.json",
+        "triangles": 29998,
+        "maximumTextureSize": 1024,
+        "localModifications": "Simplified mesh to 29998 triangles and resized embedded PNG textures to 1024 pixels; processing details recorded with the asset.",
+        "localModificationsKo": "차량 표시용으로 메시를 29,998 삼각형으로 단순화하고 내장 PNG 텍스처를 1024px로 조정했습니다.",
+        "rightsBasis": "CC BY 4.0 displayed on the generated asset; author, source, license and modifications are included in the app attribution."
+      },
+      "provenance": {
+        "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Brick Fireplace Diorama, job 199b4a0a-e707-487b-b748-1e116fa67155, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+        "rightsConfirmed": true,
+        "importedAt": "2026-10-18T00:26:26+00:00",
+        "provenanceType": "operator-attestation",
+        "rightsConfirmedAt": "2026-10-18T00:26:26+00:00"
+      },
+      "assetStatus": "imported",
+      "attribution": "3D · VARCO 3D / 사운드 · VARCO Sound",
+      "attributionEn": "3D · VARCO 3D / Sound · VARCO Sound",
+      "thumbnailUrl": "/content/fireside/thumbnail-a11967fda0ce4e17.png",
+      "thumbnailProvenance": {
+        "source": "Render of the actual packaged VARCO GLB",
+        "sha256": "a11967fda0ce4e17d60b0af9043149064e6f8bdb1f52bcc85f0540ef3d0432a9",
+        "modelSha256": "f13cd4ed57263225e08af970059a57d1e60733d423b525191f5e4429fbf5f155"
+      },
+      "choiceSubtitle": "장작 타는 따뜻한 밤",
+      "choiceSubtitleEn": "A warm fireside pause."
+    },
+    {
+      "id": "moon",
+      "title": "달 전망 라운지",
+      "titleEn": "Moon Lounge",
+      "subtitle": "지구를 바라보며 만나는 고요",
+      "subtitleEn": "A quiet moment with a view of Earth.",
+      "available": true,
+      "modelUrl": "/content/moon/model-618bdb8a92803b41.glb",
+      "visual": {
+        "theme": "moon",
+        "yawDegrees": 20
+      },
+      "layers": [
+        {
+          "id": "air",
+          "label": "전망실 공기음",
+          "labelEn": "Cabin air",
+          "available": true,
+          "file": "content/moon/audio-1-c24a6cca6b7bb329.wav",
+          "volume": 0.65,
+          "creationPrompt": "Very soft smooth ventilation airflow inside a quiet futuristic observation lounge. Gentle filtered air and a stable light room tone, restful and continuous. No alarms, beeps, speech, rattles or music.",
+          "creationPromptEn": "Very soft smooth ventilation airflow inside a quiet futuristic observation lounge. Gentle filtered air and a stable light room tone, restful and continuous. No alarms, beeps, speech, rattles or music.",
+          "provenance": {
+            "format": "wav",
+            "bytes": 2192718,
+            "sha256": "c24a6cca6b7bb329713cf1704d055db45a73878b5e0837e53b8b6377da16201d",
+            "durationSeconds": 22.84,
+            "sampleRateHz": 48000,
+            "channels": 1,
+            "sampleWidthBytes": 2,
+            "product": "VARCOSound",
+            "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Stylized Space Lounge, job de943abe-7bc9-440a-b7a1-f130af6e18d2, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+            "rightsConfirmed": true,
+            "importedAt": "2026-10-18T00:26:26+00:00",
+            "provenanceType": "operator-attestation",
+            "rightsConfirmedAt": "2026-10-18T00:26:26+00:00",
+            "projectId": "2bdddf15-8aad-40fe-8f6b-cfbdd6056971",
+            "sourceUrl": "https://sound.varco.ai/app/editor/2bdddf15-8aad-40fe-8f6b-cfbdd6056971",
+            "processingRecord": "assets/production/expansion/processed/moon/air-loop.provenance.json",
+            "rightsConfirmationRecord": "assets/production/expansion/sound-rights-confirmation.json"
+          }
+        },
+        {
+          "id": "hum",
+          "label": "낮은 공명",
+          "labelEn": "Soft resonance",
+          "available": true,
+          "file": "content/moon/audio-2-eed176878eaeb1b5.wav",
+          "volume": 0.35,
+          "creationPrompt": "A soft warm resonant hum inside an imagined moon observatory lounge. Smooth sustained mid-low tones with very slow natural movement, gentle and unobtrusive. No deep sub bass, pulses, alarms, voices or music.",
+          "creationPromptEn": "A soft warm resonant hum inside an imagined moon observatory lounge. Smooth sustained mid-low tones with very slow natural movement, gentle and unobtrusive. No deep sub bass, pulses, alarms, voices or music.",
+          "provenance": {
+            "format": "wav",
+            "bytes": 1589838,
+            "sha256": "eed176878eaeb1b58ee8259a636210525c5cfe46ce805a670bf1fca6b5a59973",
+            "durationSeconds": 16.56,
+            "sampleRateHz": 48000,
+            "channels": 1,
+            "sampleWidthBytes": 2,
+            "product": "VARCOSound",
+            "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Stylized Space Lounge, job de943abe-7bc9-440a-b7a1-f130af6e18d2, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+            "rightsConfirmed": true,
+            "importedAt": "2026-10-18T00:26:26+00:00",
+            "provenanceType": "operator-attestation",
+            "rightsConfirmedAt": "2026-10-18T00:26:26+00:00",
+            "projectId": "c57e0a59-c5d6-48a6-9603-bf15d273e534",
+            "sourceUrl": "https://sound.varco.ai/app/editor/c57e0a59-c5d6-48a6-9603-bf15d273e534",
+            "processingRecord": "assets/production/expansion/processed/moon/hum-loop.provenance.json",
+            "rightsConfirmationRecord": "assets/production/expansion/sound-rights-confirmation.json"
+          }
+        },
+        {
+          "id": "shimmer",
+          "label": "잔잔한 전자음",
+          "labelEn": "Gentle shimmer",
+          "available": true,
+          "file": "content/moon/audio-3-728665b61732fdd8.wav",
+          "volume": 0.2,
+          "creationPrompt": "Soft airy shimmering electronic ambience for an imagined moon lounge, slow smooth diffuse tones and gentle spacious texture. Quiet continuous sound design. No melody, rhythm, bells, sharp beeps, alarms or voices.",
+          "creationPromptEn": "Soft airy shimmering electronic ambience for an imagined moon lounge, slow smooth diffuse tones and gentle spacious texture. Quiet continuous sound design. No melody, rhythm, bells, sharp beeps, alarms or voices.",
+          "provenance": {
+            "format": "wav",
+            "bytes": 2034318,
+            "sha256": "728665b61732fdd8ec8e2206579d93d0905cf45ceae632c16d1164c5b8e498e7",
+            "durationSeconds": 21.19,
+            "sampleRateHz": 48000,
+            "channels": 1,
+            "sampleWidthBytes": 2,
+            "product": "VARCOSound",
+            "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Stylized Space Lounge, job de943abe-7bc9-440a-b7a1-f130af6e18d2, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+            "rightsConfirmed": true,
+            "importedAt": "2026-10-18T00:26:26+00:00",
+            "provenanceType": "operator-attestation",
+            "rightsConfirmedAt": "2026-10-18T00:26:26+00:00",
+            "projectId": "d34ba657-5eb4-4313-ab60-1e193d6c53b0",
+            "sourceUrl": "https://sound.varco.ai/app/editor/d34ba657-5eb4-4313-ab60-1e193d6c53b0",
+            "processingRecord": "assets/production/expansion/processed/moon/shimmer-loop.provenance.json",
+            "rightsConfirmationRecord": "assets/production/expansion/sound-rights-confirmation.json"
+          }
+        }
+      ],
+      "creation": {
+        "model": {
+          "description": "달에서 지구를 바라보는 상상의 전망실을 글로 묘사하고, VARCO 3D로 입체 공간을 만들었어요.",
+          "descriptionEn": "An imagined lunar observation lounge with a view of Earth, brought into three dimensions with VARCO 3D.",
+          "prompt": "A cohesive miniature moon observation lounge diorama on a low round lunar-rock base. An open-front futuristic room with a wide curved rear observation window, two ivory lounge seats and a small round table. A blue Earth sphere is visible through the window, attached to the rear wall as a sculpted relief. Pearl white panels, muted navy and soft cyan accents. Stylized game environment, broad solid shapes. Entire model visible, three-quarter front view, pale background. No roof, people, text or logos.",
+          "promptEn": "A cohesive miniature moon observation lounge diorama on a low round lunar-rock base. An open-front futuristic room with a wide curved rear observation window, two ivory lounge seats and a small round table. A blue Earth sphere is visible through the window, attached to the rear wall as a sculpted relief. Pearl white panels, muted navy and soft cyan accents. Stylized game environment, broad solid shapes. Entire model visible, three-quarter front view, pale background. No roof, people, text or logos."
+        },
+        "sound": {
+          "description": "상상 속 전망실의 공기음, 공명, 전자음을 VARCO Sound에서 따로 만들어 조합했어요.",
+          "descriptionEn": "Imagined cabin air, resonance and shimmering ambience created separately with VARCO Sound, then mixed together."
+        }
+      },
+      "modelProvenance": {
+        "format": "glb",
+        "glbVersion": 2,
+        "bytes": 4655848,
+        "sha256": "618bdb8a92803b413a118f7b960b646594e435867f0e1c38bfe0180d7cb60e4d",
+        "product": "VARCO3D",
+        "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Stylized Space Lounge, job de943abe-7bc9-440a-b7a1-f130af6e18d2, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+        "rightsConfirmed": true,
+        "importedAt": "2026-10-18T00:26:26+00:00",
+        "provenanceType": "operator-attestation",
+        "rightsConfirmedAt": "2026-10-18T00:26:26+00:00",
+        "id": "de943abe-7bc9-440a-b7a1-f130af6e18d2",
+        "title": "Stylized Space Lounge",
+        "author": "u533671002",
+        "sourceUrl": "https://3d.varco.ai/myAssets/de943abe-7bc9-440a-b7a1-f130af6e18d2",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "generator": "varco-3d-2.0",
+        "originalTriangles": 500000,
+        "originalVertices": 293045,
+        "observation": "Public and CC BY 4.0 displayed in VARCO 3D own asset license UI on 2026-10-18.",
+        "service": "VARCO 3D · varco-3d-2.0",
+        "generationSourceVerified": true,
+        "processingRecord": "assets/production/expansion/processed/moon/model.optimization.json",
+        "triangles": 49650,
+        "maximumTextureSize": 1024,
+        "localModifications": "Simplified mesh to 49650 triangles and resized embedded PNG textures to 1024 pixels; processing details recorded with the asset.",
+        "localModificationsKo": "차량 표시용으로 메시를 49,650 삼각형으로 단순화하고 내장 PNG 텍스처를 1024px로 조정했습니다.",
+        "rightsBasis": "CC BY 4.0 displayed on the generated asset; author, source, license and modifications are included in the app attribution."
+      },
+      "provenance": {
+        "sourceNote": "Generated in the user's signed-in NC AI account through VARCO 3D and VARCO Sound on 2026-10-18. 3D: Stylized Space Lounge, job de943abe-7bc9-440a-b7a1-f130af6e18d2, author u533671002, varco-3d-2.0, Public CC BY 4.0 observed in the service UI. Sound project IDs and original prompts are recorded in assets/production/expansion/brief.json. The user authorized generation, editing and inclusion of these outputs in Park Lounge for Pleos registration; see assets/production/expansion/sound-rights-confirmation.json. Mesh simplification, texture resizing, audio processing and source/output hashes are recorded alongside the processed assets.",
+        "rightsConfirmed": true,
+        "importedAt": "2026-10-18T00:26:26+00:00",
+        "provenanceType": "operator-attestation",
+        "rightsConfirmedAt": "2026-10-18T00:26:26+00:00"
+      },
+      "assetStatus": "imported",
+      "attribution": "3D · VARCO 3D / 사운드 · VARCO Sound",
+      "attributionEn": "3D · VARCO 3D / Sound · VARCO Sound",
+      "thumbnailUrl": "/content/moon/thumbnail-2d87afe410786ad4.png",
+      "thumbnailProvenance": {
+        "source": "Render of the actual packaged VARCO GLB",
+        "sha256": "2d87afe410786ad4577390e83568c859e9490c25bf47ab27ccd8b303f197e773",
+        "modelSha256": "618bdb8a92803b413a118f7b960b646594e435867f0e1c38bfe0180d7cb60e4d"
+      },
+      "choiceSubtitle": "지구를 바라보는 고요",
+      "choiceSubtitleEn": "A quiet view of Earth."
+    }
+  ],
+  "products": {
+    "sound": {
+      "name": "VARCO Sound",
+      "url": "https://sound.varco.ai/ko?utm_source=pleos&utm_medium=qr&utm_campaign=varco_spaces_v1&utm_content=sound"
+    },
+    "threeD": {
+      "name": "VARCO 3D",
+      "url": "https://3d.varco.ai/ko?utm_source=pleos&utm_medium=qr&utm_campaign=varco_spaces_v1&utm_content=3d"
+    },
+    "api": {
+      "name": "VARCO API",
+      "url": "https://api.varco.ai/ko?utm_source=pleos&utm_medium=qr&utm_campaign=varco_spaces_v1&utm_content=api"
+    }
+  }
+}
